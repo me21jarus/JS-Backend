@@ -1,0 +1,53 @@
+# ─────────────────────────────
+# Node / Vite / Express .gitignore
+# ─────────────────────────────
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+
+# Vite cache
+.vite/
+vite.config.timestamp.*
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor specific
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Local database / storage
+data/
+*.sqlite
+*.db
+
+# Optional: Express uploads
+uploads
