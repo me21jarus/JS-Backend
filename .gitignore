@@ -50,4 +50,4 @@ data/
 *.db
 
 # Optional: Express uploads
-uploads
+uploadsg
